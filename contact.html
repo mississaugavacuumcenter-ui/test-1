@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Mississauga Vacuum Center</title>
+<meta name="description" content="Contact Mississauga Vacuum Center for sales, repairs, parts, Miele support, quote requests, and central vacuum home visits.">
+<link rel="icon" href="logo4.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+<script defer src="site-config.js"></script>
+<script defer src="main.js"></script>
+</head>
+<body>
+<div data-site-header></div>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs"><a href="index.html">Home</a> <span>/</span> <strong>Contact</strong></div>
+      <div class="panel">
+        <div class="eyebrow">Contact the store</div>
+        <h1>Call, visit, request a quote, or send service details</h1>
+        <p class="lead">Contact us for vacuum sales, parts, repairs, Miele warranty service, central vacuum help, phone orders, pickup and delivery questions, or quote requests with photos.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section shop-section">
+    <div class="container contact-grid">
+      <div>
+        <div class="info-grid">
+          <div class="info-box"><h3>Phone</h3><p><a data-phone href="#">(905) 855-4948</a></p></div>
+          <div class="info-box"><h3>Email</h3><p><a data-email href="#">mississaugavacuum@gmail.com</a></p></div>
+          <div class="info-box"><h3>Address</h3><p data-address-single></p></div>
+        </div>
+        <div class="panel mt-2">
+          <h3>Store hours</h3>
+          <p><span data-hours-weekdays></span><br><span data-hours-saturday></span><br><span data-hours-sunday></span></p>
+          <h3 class="mt-2">What to contact us about</h3>
+          <ul class="service-checks compact-checks">
+            <li>Official Miele sales, service, and warranty repairs</li>
+            <li>All-brand vacuum repairs and maintenance</li>
+            <li>Spare parts, bags, filters, hoses, and attachments</li>
+            <li>Central vacuum repairs, service, installations, and home visits</li>
+            <li>New build and renovation central vacuum quotes</li>
+            <li>Retractable hose system service and installation</li>
+          </ul>
+          <div class="btn-row mt-1">
+            <a class="btn btn-primary" data-phone href="#">Call Now</a>
+            <a class="btn btn-secondary" data-maps-link href="#" target="_blank" rel="noopener">Get Directions</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="panel">
+          <h3>Send an inquiry or quote request</h3>
+          <p>Send details, photos, and service information here. We review quote requests, repair inquiries, Miele questions, and central vacuum issues through this form.</p>
+          <form data-formsubmit-form>
+            <input type="hidden" name="_subject" value="Contact Form - Mississauga Vacuum Center">
+            <input type="hidden" name="_next" value="">
+            <input type="hidden" name="_captcha" value="false">
+            <div class="form-grid-2">
+              <label>Name<input type="text" name="Name" required></label>
+              <label>Phone<input type="tel" name="Phone"></label>
+            </div>
+            <div class="form-grid-2">
+              <label>Email<input type="email" name="Email" required></label>
+              <label>Inquiry Type
+                <select name="Inquiry Type">
+                  <option>Vacuum sales</option>
+                  <option>Parts and accessories</option>
+                  <option>Repair and service</option>
+                  <option>Miele support</option>
+                  <option>Central vacuum service</option>
+                  <option>Home visit request</option>
+                  <option>Quote request</option>
+                </select>
+              </label>
+            </div>
+            <label>Address / Job Location<input type="text" name="Address / Job Location"></label>
+            <label>Message<textarea name="Message" placeholder="Tell us what you need help with"></textarea></label>
+            <label>Upload Photos<input type="file" name="Photos" accept="image/*" multiple></label>
+            <div class="file-note" data-file-list>No files selected yet.</div>
+            <button class="btn btn-primary" type="submit">Send Inquiry</button>
+          </form>
+        </div>
+        <div class="mt-2">
+          <iframe class="map-frame" data-map-embed src="about:blank" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mississauga Vacuum Center map"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<div data-site-footer></div>
+</body>
+</html>
