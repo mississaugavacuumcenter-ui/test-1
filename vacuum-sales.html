@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vacuum Sales | Mississauga Vacuum Center</title>
+<meta name="description" content="Browse vacuum sales in Mississauga with organized filters for canister, stick, handheld, upright, and commercial vacuum categories, plus a Miele-only option.">
+<link rel="icon" href="logo4.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+<script defer src="site-config.js"></script>
+<script defer src="main.js"></script>
+</head>
+<body>
+<div data-site-header></div>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs"><a href="index.html">Home</a> <span>/</span> <strong>Vacuums</strong></div>
+      <div class="hero-box">
+        <div class="hero-copy">
+          <h1>VACUUMS</h1>
+          <p class="lead">As authorized official dealers, we provide full manufacturer warranty on all vacuums we sell. We guarantee the best prices and offers. Please call us with any questions. We carry all vacuum brands and models. our full inventory may not be listed online. </p>
+          <div class="btn-row mt-1">
+            <a class="btn btn-primary" href="#catalogue">Browse Products</a>
+            <a class="btn btn-secondary" href="request-quote.html">Request a Quote</a>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <img class="hero-image" src="brands pic.png" alt="Premium vacuum collection">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section shop-section" id="catalogue">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Shop by category</div>
+          <h2>We Carry all vacuum brands and models, if you do not see what you need on our website, please call us.</h2>
+          <p style="font-size: 2rem; font-weight: 800; color: #8B0000; line-height: 1.3; margin-top: 10px;">
+  Official Dealer Pricing. Best Prices and Offers Guaranteed. Call Us Today for Pricing &amp; Expert Help.</p>
+</div>
+      </div>
+
+      <div class="sales-filter-bar" data-sales-filters>
+        <div class="filter-chip-row">
+          <button class="filter-chip is-active" type="button" data-filter-chip="all">All Vacuums</button>
+          <button class="filter-chip" type="button" data-filter-chip="canister">Canister</button>
+          <button class="filter-chip" type="button" data-filter-chip="upright">Upright</button>
+          <button class="filter-chip" type="button" data-filter-chip="stick">Stick</button>
+          <button class="filter-chip" type="button" data-filter-chip="commercial">Commercial</button>
+          <button class="filter-chip" type="button" data-filter-chip="handheld">Handheld</button>
+          <button class="filter-chip filter-chip-brand" type="button" data-filter-brand="miele">Miele Vacuums</button>
+        </div>
+      </div>
+
+      <div class="sales-filter-meta">
+        <div class="filter-summary" data-filter-summary>Showing all available vacuum products.</div>
+        <button class="filter-reset" type="button" data-filter-reset>Clear filters</button>
+      </div>
+
+      <div class="card-grid mt-2" data-product-grid="catalog"></div>
+
+      <div class="catalog-empty hidden" data-filter-empty>
+        <h3>No products are currently shown for this filter.</h3>
+        <p>We may still carry options, be able to special order them, or recommend the closest alternative. Call us or request a quote and we will help you find the right fit.</p>
+        <div class="btn-row mt-1">
+          <a class="btn btn-primary" href="request-quote.html">Request a Quote</a>
+          <a class="btn btn-secondary" data-phone href="#">Call Store</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<div data-site-footer></div>
+</body>
+</html>

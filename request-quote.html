@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Quote | Mississauga Vacuum Center</title>
+<meta name="description" content="Request a quote from Mississauga Vacuum Center for vacuums, repairs, Miele service, central vacuum issues, home visits, and installation projects.">
+<link rel="icon" href="logo4.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+<script defer src="site-config.js"></script>
+<script defer src="main.js"></script>
+</head>
+<body>
+<div data-site-header></div>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs"><a href="index.html">Home</a> <span>/</span> <strong>Request a Quote</strong></div>
+      <div class="page-banner">
+        <div class="panel">
+          <div class="eyebrow">Request a quote</div>
+          <h1>Send us your details, photos, and service request</h1>
+          <p class="lead">Request pricing or service support for new vacuums, repairs, Miele warranty questions, central vacuum service calls, home visits, installations, renovation projects, and retractable hose systems.</p>
+          <div class="tick-list mt-1">
+            <div class="tick">Upload photos of your vacuum, labels, damaged parts, inlets, piping, or job site</div>
+            <div class="tick">Request service for existing homes, renovations, or new builds</div>
+            <div class="tick">Ask about pickup, delivery, ordering by phone, or product availability</div>
+          </div>
+        </div>
+        <div class="panel accent-panel">
+          <h3>Before you send</h3>
+          <p>Helpful details include the vacuum brand and model, the issue you are experiencing, whether the work is in-home, and any photos that show the machine, accessories, wall inlets, power unit, or damaged area.</p>
+          <div class="btn-row mt-1">
+            <a class="btn btn-secondary" data-phone href="#">Call the Store</a>
+            <a class="btn btn-primary" href="contact.html">General Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section shop-section">
+    <div class="container">
+      <div class="panel quote-panel-wide">
+        <form data-formsubmit-form>
+          <input type="hidden" name="_subject" value="Quote Request - Mississauga Vacuum Center">
+          <input type="hidden" name="_next" value="">
+          <input type="hidden" name="_captcha" value="false">
+          <div class="form-grid-2">
+            <label>Full Name<input type="text" name="Full Name" required></label>
+            <label>Phone Number<input type="tel" name="Phone Number" required></label>
+          </div>
+          <div class="form-grid-2">
+            <label>Email Address<input type="email" name="Email Address" required></label>
+            <label>Preferred Contact Method
+              <select name="Preferred Contact Method">
+                <option>Phone</option>
+                <option>Email</option>
+                <option>Either is fine</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-grid-2">
+            <label>Request Type
+              <select name="Request Type">
+                <option>New vacuum quote</option>
+                <option>Vacuum repair</option>
+                <option>Miele warranty or service</option>
+                <option>Central vacuum repair</option>
+                <option>Central vacuum installation</option>
+                <option>Renovation or new build quote</option>
+                <option>Retractable hose system</option>
+                <option>Parts, bags, filters, or attachments</option>
+              </select>
+            </label>
+            <label>City / Area<input type="text" name="City / Area" value="Mississauga"></label>
+          </div>
+          <label>Service Address / Job Location<input type="text" name="Service Address / Job Location" placeholder="Especially useful for home visits, new builds, or renovation work"></label>
+          <label>Vacuum Brand / Model<input type="text" name="Vacuum Brand / Model" placeholder="Example: Miele Complete C3 or central vacuum power unit model"></label>
+          <label>Describe the product, issue, or project<textarea name="Project Details" placeholder="Tell us what is happening, what type of home or project it is, and what kind of quote or service you need"></textarea></label>
+          <label>Upload Photos<input type="file" name="Photos" accept="image/*" multiple></label>
+          <div class="file-note" data-file-list>No files selected yet.</div>
+          <div class="btn-row mt-1">
+            <button class="btn btn-primary" type="submit">Send Quote Request</button>
+            <a class="btn btn-secondary" data-phone href="#">Call Instead</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<div data-site-footer></div>
+</body>
+</html>
