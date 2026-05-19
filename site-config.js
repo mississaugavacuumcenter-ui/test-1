@@ -1,5 +1,5 @@
 window.SITE_CONFIG = {
-  "businessName": "Mississauga Vacuum Center",
+  "businessName": "Mississauga Vacuum Centre",
   "legalName": "Mississauga Vacuum Centre",
   "domain": "https://mississaugavacuum.com",
   "foundedYear": 1999,
@@ -1801,7 +1801,7 @@ window.SITE_CONFIG = {
   "faqs": [
     {
       "q": "Are you an official Miele dealer?",
-      "a": "Yes. Mississauga Vacuum Center is an official Miele dealer and handles Miele warranty repairs, service, and ongoing product support."
+      "a": "Yes. Mississauga Vacuum Centre is an official Miele dealer and handles Miele warranty repairs, service, and ongoing product support."
     },
     {
       "q": "Do you service all vacuum brands and models?",
@@ -1821,7 +1821,7 @@ window.SITE_CONFIG = {
     },
     {
       "q": "How long have you been in business?",
-      "a": "Mississauga Vacuum Center has been in business since 1999 and continues to serve Mississauga and nearby communities."
+      "a": "Mississauga Vacuum Centre has been in business since 1999 and continues to serve Mississauga and nearby communities."
     }
   ],
   "salesFilterOptions": [
@@ -8518,7 +8518,7 @@ window.SITE_CONFIG = {
       "name": "35' Central Vacuum Hose 110 / 24 Volt",
       "brand": "Cyclo Vac",
       "category": "Hoses",
-      "image": "Centeral vacuum Hose 110-24 V 35 feet.jpg",
+      "image": "Centreal vacuum Hose 110-24 V 35 feet.jpg",
       "price": "Call for Price",
       "tags": [
         "Hose",
